@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('tenant_list');
+    return view('welcome');
 });
 
 Route::get('/hello', function () {
